@@ -1,6 +1,6 @@
 import React from "react";
 import Headerup from "../components/Headerup";
-import styles from "../styles/HomePage.css"
+import styles from "../styles/Header.css"
 const HomePage = () => {
   return <div>
       <Headerup/>
