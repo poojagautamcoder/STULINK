@@ -9,14 +9,16 @@ const Headermid = () => {
         </div>
 
         <div className="search">
-          <input
-            type="email"
-            class="form-input px-4 py-3 rounded-full inputarea"
-            placeholder="search"
-          />
+          <div class="search">
+            <span class="fa fa-search"></span>
+            <input className="search-area" placeholder="Search" />
+          </div>
         </div>
 
-        <div>abcd</div>
+        <div>
+          <button className="log-in register">log in</button>
+          <button className="sign-up register">sign up</button>
+        </div>
       </div>
     </div>
   );

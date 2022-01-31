@@ -7,6 +7,7 @@
   justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 10px;
 }
 .parent-div {
   display: flex;
@@ -20,7 +21,6 @@
   color: white;
   height: 86px;
   left: -1px;
-  top: 39px;
   border-radius: 0px;
 }
 .mid-child-container {
@@ -28,14 +28,34 @@
   justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 30px;
 }
-.search {
-  padding-top: 12px;
+.register {
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
 }
-.inputarea {
-  height: 45px;
-  width: 637px;
-  left: 401px;
-  top: 59px;
-  border-radius: 6px;
+.log-in {
+  margin-right: 10px;
+  padding-left: 40px;
+  background: #131921;
+  color: white;
+}
+.sign-up {
+  padding-left: 30px;
+}
+.navbar-low {
+  background: #232f3e;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+ul,
+li {
+  list-style: none;
+}
+.site-links {
+  display: flex;
+  justify-content: space-between;
 }
