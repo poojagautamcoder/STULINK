@@ -3,20 +3,21 @@ import home from "../himages/Vector.png";
 
 const Headinglow = () => {
   return (
-    <div className="navbar-low ">
-      <ul className="site-links">
-        <li>
+    <div className="navbar-low">
+      <div className="nav-child">
+        <div>
+          {" "}
           <img src={home} />
-        </li>
-        <li>Colleges</li>
-        <li>Exam</li>
-        <li>Courses</li>
-        <li>jobs</li>
-        <li>News</li>
-        <li>Chat Room</li>
-        <li>Members</li>
-        <li>Help Center</li>
-      </ul>
+        </div>
+        <div>Colleges</div>
+        <div>Exam</div>
+        <div>Courses</div>
+        <div>Jobs</div>
+        <div>News</div>
+        <div>Chat Room</div>
+        <div>Members</div>
+        <div>Help Center</div>
+      </div>
     </div>
   );
 };

@@ -9,7 +9,7 @@ const Headermid = () => {
         <div>
           <img src={logo} />
         </div>
-        <div  className="search-area">
+        <div className="search-area">
           <input className="search" placeholder="SEARCH" />
         </div>
         <div>

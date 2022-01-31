@@ -1,0 +1,21 @@
+.container {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.child-b {
+  display: flex;
+  justify-content: space-between;
+}
+.data-chart {
+  padding-right: 4rem;
+}
+.welcome {
+  color: #29abe2;
+}
+.sub-heading {
+  display: flex;
+  padding-right: 10px;
+}
+

@@ -18,13 +18,12 @@
 .search-area {
   padding-top: 5px;
 }
-.search{
+.search {
   font-weight: 400;
   border-radius: 5px;
   padding-right: 50px;
   padding-top: 5px;
   padding-bottom: 5px;
-
 }
 
 /* mid-header-css */
@@ -41,29 +40,34 @@
   padding-bottom: 10px;
 }
 .register {
-padding-top: 5px;
-padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: none;
   margin-top: 10px;
 }
 .log-in {
+  
   margin-right: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
   background: #131921;
   color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 18px;
 }
 .sign-up {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.search-area {
+  padding-top: 10px;
 }
 /* lower navbar */
 .navbar-low {
   background: #232f3e;
-  padding-left: 50px;
-  padding-right: 50px;
   color: white;
   height: 53px;
 }
@@ -71,8 +75,10 @@ ul,
 li {
   list-style: none;
 }
-.site-links {
+.nav-child {
   display: flex;
   justify-content: space-between;
-  padding-top: 12px;
+  padding-top: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
