@@ -1,0 +1,27 @@
+.parent-container {
+  background: #000000;
+  color: white;
+}
+.child-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.parent-div {
+  display: flex;
+}
+.child-div {
+  padding-right: 50px;
+}
+/* mid-header-css */
+.midparent-container {
+  background: #131921;
+  color: white;
+}
+.mid-child-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
