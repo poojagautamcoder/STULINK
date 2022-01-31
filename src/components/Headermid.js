@@ -1,13 +1,21 @@
 import React from "react";
-import logo from "../himages/StuLink cyan1.png";
+
 const Headermid = () => {
   return (
     <div className="midparent-container">
       <div className="mid-child-container">
         <div>
-          <img src="{Stulink}" alt="stulink" />
+          <h3>Stulink</h3>
         </div>
-        <div>abcd</div>
+
+        <div className="search">
+          <input
+            type="email"
+            class="form-input px-4 py-3 rounded-full inputarea"
+            placeholder="search"
+          />
+        </div>
+
         <div>abcd</div>
       </div>
     </div>
