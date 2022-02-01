@@ -5,6 +5,7 @@ import styles from "../styles/Header.css";
 import midnavbar from "../himages/navbar.png";
 import Pagebody from "../components/Pagebody";
 import Collegeexams from "../components/Collegeexams";
+import Trendingcollege from "../components/Trendingcollege";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Headinglow />
      <Pagebody/>
      <Collegeexams/>
+     <Trendingcollege/>
     </div>
   );
 };

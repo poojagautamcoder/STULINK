@@ -106,3 +106,29 @@ border-radius: 5px;
 background: #FFFFFF;
 
 }
+/* trending&colleges */
+.trending-heading{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 40px;
+}
+.trending-container{
+  max-width: 1445px;
+  margin: auto;
+}
+.college-title{
+  padding-left: 10px;
+}
+.trending{
+  padding-top: 10px;
+}
+.featured{
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.arrow{
+  margin-top: auto;
+  margin-bottom: auto;
+}
