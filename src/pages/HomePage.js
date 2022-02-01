@@ -1,14 +1,19 @@
 import React from "react";
-import Headermid from "../components/Headermid";
 import Headerup from "../components/Headerup";
 import Headinglow from "../components/Headinglow";
 import styles from "../styles/Header.css";
+import midnavbar from "../himages/navbar.png";
+import Pagebody from "../components/Pagebody";
+
 const HomePage = () => {
   return (
-    <div>
+    <div className="homepage">
       <Headerup />
-      <Headermid />
-      <Headinglow/>
+      <div>
+        <img src={midnavbar} />
+      </div>
+      <Headinglow />
+     <Pagebody/>
     </div>
   );
 };

@@ -1,78 +1,38 @@
 .parent-container {
   background: #000000;
   color: white;
+  max-width: 1440px;
+  margin: auto;
 }
 .child-container {
   display: flex;
   justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 10px;
 }
 .parent-div {
   display: flex;
+  justify-content: space-between;
 }
 .child-div {
   padding-right: 50px;
 }
-.search-area {
-  padding-top: 5px;
-}
-.search{
-  font-weight: 400;
-  border-radius: 5px;
-  padding-right: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-
-}
-
-/* mid-header-css */
-.midparent-container {
-  background: #131921;
-  color: white;
-}
-.mid-child-container {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.register {
-padding-top: 5px;
-padding-bottom: 5px;
-  border: none;
-  border-radius: 10px;
-  box-shadow: none;
-  margin-top: 10px;
-}
-.log-in {
-  margin-right: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background: #131921;
-  color: white;
-}
-.sign-up {
-  padding-right: 15px;
-  padding-left: 15px;
-}
 /* lower navbar */
 .navbar-low {
   background: #232f3e;
-  padding-left: 50px;
-  padding-right: 50px;
   color: white;
   height: 53px;
+  max-width: 1443px;
+  margin: auto;
+  margin-top: 0%;
 }
 ul,
 li {
   list-style: none;
 }
-.site-links {
+.nav-child {
   display: flex;
   justify-content: space-between;
-  padding-top: 12px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
