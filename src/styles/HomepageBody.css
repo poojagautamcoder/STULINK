@@ -1,21 +1,54 @@
 .container {
-  margin-top: 10rem;
-  display: flex;
-  justify-content: space-between;
+  max-width: 1445px;
+  height: 769px;
+  margin: auto;
+  background: url(../himages/grouppicture.png);
 }
-
-.child-b {
-  display: flex;
-  justify-content: space-between;
+.overlay {
+  top: 178px;
+  right: 41px;
+  height: 769px;
+  max-width: 1420px;
+  opacity: 95%;
+  background: #ffffff;
+  margin-left: auto;
 }
-.data-chart {
-  padding-right: 4rem;
+.child-overlay {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10rem;
 }
 .welcome {
+  height: 32px;
   color: #29abe2;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
 }
-.sub-heading {
+.data {
+  padding-top: 20px;
+}
+.lorem-text {
+  max-width: 459px;
+  height: 100px;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
   display: flex;
-  padding-right: 10px;
+  padding-left: 20px;
+}
+.para {
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  padding-top: 20px;
 }
 
+/* Next part */

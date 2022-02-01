@@ -5,18 +5,18 @@ const Headinglow = () => {
   return (
     <div className="navbar-low">
       <div className="nav-child">
-        <div>
+        <p>
           {" "}
           <img src={home} />
-        </div>
-        <div>Colleges</div>
-        <div>Exam</div>
-        <div>Courses</div>
-        <div>Jobs</div>
-        <div>News</div>
-        <div>Chat Room</div>
-        <div>Members</div>
-        <div>Help Center</div>
+        </p>
+        <p>Colleges</p>
+        <p>Exam</p>
+        <p>Courses</p>
+        <p>Jobs</p>
+        <p>News</p>
+        <p>Chat Room</p>
+        <p>Members</p>
+        <p>Help Center</p>
       </div>
     </div>
   );
