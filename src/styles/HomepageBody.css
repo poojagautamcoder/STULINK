@@ -52,3 +52,57 @@
 }
 
 /* Next part */
+.college-container {
+  max-width: 1445px;
+  height: 1139px;
+  margin: auto;
+}
+.college-child {
+  padding: 40px;
+  background: #f6f6f6;
+ 
+}
+.collegeexams {
+  padding-top: 20px;
+}
+.buttons {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+.bluediv {
+  height: 60px;
+  width: 300px;
+  background: #29abe2;
+}
+.whitediv {
+  height: 60px;
+  width: 300px;
+  background: #ffffff;
+}
+.titlebtn {
+  padding-top: 20px;
+}
+.college-logo{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 70px;
+  
+}
+.logoa{
+  height: 190px;
+width: 210px;
+border-radius: 5px;
+background: #29ABE2;
+
+
+}
+.logo{
+height: 190px;
+width: 210px;
+border-radius: 5px;
+background: #FFFFFF;
+
+}
