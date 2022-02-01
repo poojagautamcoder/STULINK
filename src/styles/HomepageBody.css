@@ -96,8 +96,6 @@
 width: 210px;
 border-radius: 5px;
 background: #29ABE2;
-
-
 }
 .logo{
 height: 190px;
@@ -131,4 +129,51 @@ background: #FFFFFF;
 .arrow{
   margin-top: auto;
   margin-bottom: auto;
+}
+/* courses */
+.course-container{
+height: 1129px;
+width: 1440px;
+margin: auto;
+background: #F6F6F6;
+}
+.cources-child{
+  padding-top: 60px;
+}
+.title-container{
+  max-width: 1010px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.line2{
+  padding-bottom: 2px;
+}
+.data-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.smallrow{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.data-boxa{
+  height: 63px;
+width: 170px;
+border-radius: 5px;
+background:#29ABE2;
+color: white;
+}
+.data-box{
+height: 63px;
+width: 170px;
+border-radius: 5px;
+border: 1px solid #29ABE2;
+color: black;
 }

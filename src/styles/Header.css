@@ -17,6 +17,11 @@
 .child-div {
   padding-right: 50px;
 }
+/* middle navbar */
+.mid-container{
+  max-width: 1443px;
+  margin: auto;
+}
 /* lower navbar */
 .navbar-low {
   background: #232f3e;
