@@ -12,9 +12,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <Headerup />
-      <div className="mid-container">
-        <img src={midnavbar} />
-      </div>
+        <img className="middlenav" src={midnavbar} />
       <Headinglow />
      <Pagebody/>
      <Collegeexams/>

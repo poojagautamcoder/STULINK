@@ -1,17 +1,16 @@
 .container {
-  max-width: 1445px;
+  max-width:100%;
   height: 769px;
   margin: auto;
   background: url(../himages/grouppicture.png);
 }
 .overlay {
   top: 178px;
-  right: 41px;
   height: 769px;
-  max-width: 1420px;
+  max-width: 1830px;
   opacity: 95%;
   background: #ffffff;
-  margin-left: auto;
+   margin-left: auto;
 }
 .child-overlay {
   display: flex;
@@ -53,7 +52,7 @@
 
 /* Next part */
 .college-container {
-  max-width: 1445px;
+  max-width:100%;
   height: 1139px;
   margin: auto;
 }
@@ -86,8 +85,8 @@
 .college-logo{
   display: flex;
   justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 15rem;
+  padding-right: 15rem;
   padding-top: 70px;
   
 }
@@ -107,12 +106,12 @@ background: #FFFFFF;
 /* trending&colleges */
 .trending-heading{
   display: flex;
-  justify-content: flex-start;
-  padding-left: 40px;
+   justify-content: center;
+   padding-right: 100px;
 }
 .trending-container{
-  max-width: 1445px;
-  margin: auto;
+  max-width:100%;
+ 
 }
 .college-title{
   padding-left: 10px;
@@ -121,7 +120,6 @@ background: #FFFFFF;
   padding-top: 10px;
 }
 .featured{
-  max-width: 1400px;
   display: flex;
   justify-content: center;
   padding-top: 15px;
@@ -133,7 +131,7 @@ background: #FFFFFF;
 /* courses */
 .course-container{
 height: 1129px;
-width: 1440px;
+max-width: 100%;
 margin: auto;
 background: #F6F6F6;
 }
@@ -141,14 +139,20 @@ background: #F6F6F6;
   padding-top: 60px;
 }
 .title-container{
-  max-width: 1010px;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
   padding-top: 50px;
+  padding-left: 26rem;
+  padding-right: 25rem;
+  padding-bottom: 20px;
+}
+.line1{
+  max-width: 100%;
 }
 .line2{
   padding-bottom: 2px;
+  max-width: 100%;
 }
 .data-container{
   display: flex;
@@ -156,12 +160,12 @@ background: #F6F6F6;
   padding-top: 50px;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 15rem;
+  padding-right:15rem;
 }
 .smallrow{
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 23rem;
+  padding-right: 23rem;
 }
 .data-boxa{
   height: 63px;

@@ -1,5 +1,5 @@
 import react from "react";
-import home from "../himages/Vector.png";
+import home from "../himages/home.png";
 
 const Headinglow = () => {
   return (

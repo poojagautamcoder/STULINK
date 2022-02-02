@@ -42,7 +42,7 @@ const Cources = () => {
           </div>
         </div>
         <div>
-          <img src={line2} />
+          <img className="line1" src={line2} />
           <img  className="line2" src={line1} />
         </div>
       </div>

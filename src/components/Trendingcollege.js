@@ -3,8 +3,8 @@ import trending from "../Headingdata/Trending.png";
 import college from "../Headingdata/Colleges.png";
 import groupone from "../himages/group1965.png";
 import grouptwo from "../himages/group1596.png";
-import groupthree from "../himages/group 1597.png";
-import groupfour from "../himages/group 1598.png";
+import groupthree from "../himages/Group 1597.png";
+import groupfour from "../himages/Group 1598.png";
 import leftarrow from "../Headingdata/left arrow.png";
 import rightarrow from "../Headingdata/right arrow.png";
 const Trendingcollege = () => {
