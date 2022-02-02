@@ -1,7 +1,7 @@
 .parent-container {
   background: #000000;
   color: white;
-  max-width: 1440px;
+  max-width: 100%;
   margin: auto;
 }
 .child-container {
@@ -17,12 +17,17 @@
 .child-div {
   padding-right: 50px;
 }
+/* middle navbar */
+.middlenav{
+width: 100%;
+height: 100%;
+}
 /* lower navbar */
 .navbar-low {
   background: #232f3e;
   color: white;
   height: 53px;
-  max-width: 1443px;
+ max-width: 100%;
   margin: auto;
   margin-top: 0%;
 }
