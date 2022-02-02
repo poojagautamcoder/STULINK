@@ -1,6 +1,6 @@
 import react from "react";
 
-const Headerup = () => {
+const Uppernav = () => {
   return (
     <div className="parent-container">
       <div className="child-container">
@@ -17,4 +17,4 @@ const Headerup = () => {
     </div>
   );
 };
-export default Headerup;
+export default Uppernav;
