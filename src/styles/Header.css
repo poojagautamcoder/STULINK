@@ -1,8 +1,11 @@
+/* upper navbar */
 .parent-container {
   background: #000000;
   color: white;
   max-width: 100%;
   margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .child-container {
   display: flex;
@@ -17,19 +20,64 @@
 .child-div {
   padding-right: 50px;
 }
+
 /* middle navbar */
-.middlenav{
-width: 100%;
-height: 100%;
+.middlenavbar {
+  background: #131921;
+  color: white;
+  max-width: 100%;
+  margin: auto;
+  
+}
+.Mobile-View-Container{
+  background: #131921;
+  color: white;
+  max-width: 100%;
+  margin: auto;
+  display: none;
+}
+.second-navbar{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 13px;
+  padding-bottom: 20px;
+}
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 13px;
+  padding-bottom: 20px;
+}
+.inputarea { 
+  padding-top: 5px;
+}
+.input {
+  width: 637px;
+  height: 45px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  background: #ffffff url(../himages/search\ \(1\).png) right no-repeat ;
+  padding-left: 10px;
+}
+.login-signup {
+  padding-top: 12px;
+  display: flex;
+}
+.login {
+  padding-right: 15px;
 }
 /* lower navbar */
 .navbar-low {
   background: #232f3e;
   color: white;
-  height: 53px;
- max-width: 100%;
+  max-width: 100%;
   margin: auto;
-  margin-top: 0%;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 ul,
 li {
@@ -41,3 +89,157 @@ li {
   padding-left: 100px;
   padding-right: 100px;
 }
+p{
+  display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+/* ////media query ///// */
+
+/* ///upper navbar //// */
+@media screen and (max-width:715px) {
+  .parent-div  {
+  display: block;
+  justify-content: center;
+  }
+  .child-div {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width:356px) {
+  .child-container  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  display: block;
+  justify-content: center;
+  margin-top: 0;
+  }
+}
+/* /////middle navbar //// */
+@media screen and (max-width: 1307px) {
+  .input {
+    width:550px ;
+  }
+}
+@media screen and (max-width: 1146px) {
+  .input {
+    width:400px ;
+  }
+}
+@media screen and (max-width:981px) {
+  .input {
+    width:300px ;
+  }
+}
+@media screen and (max-width:869px) {
+  .input {
+    width:200px ;
+  }
+}
+@media screen and (max-width:768px) {
+  .middle-container {
+ display: none;
+  }
+  .Mobile-View-Container{
+    background: #131921;
+    color: white;
+    max-width: 100%;
+    margin: auto;
+    display: block !important;
+    padding-bottom: 15px;
+  }
+  .input{
+    width: 400px;
+  }
+}
+@media screen and (max-width:425px) {
+  .middle-container {
+ display: none;
+  }
+  .Mobile-View-Container{
+    background: #131921;
+    color: white;
+    max-width: 100%;
+    margin: auto;
+    display: block !important;
+    padding-bottom: 15px;
+  }
+  .second-navbar{
+    display: block;
+    justify-content: center;
+  }
+  .login-signup{
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .input{
+    width: 350px;
+  }
+}
+@media screen and (max-width:375px) {
+  .middle-container {
+ display: none;
+  }
+  .Mobile-View-Container{
+    background: #131921;
+    color: white;
+    max-width: 100%;
+    margin: auto;
+    display: block !important;
+    padding-bottom: 15px;
+  }
+  .second-navbar{
+    display: block;
+    justify-content: center;
+  }
+  .login-signup{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .input{
+    width: 300px;
+  }
+}
+@media screen and (max-width:320px) {
+  .middle-container {
+ display: none;
+  }
+  .Mobile-View-Container{
+    background: #131921;
+    color: white;
+    max-width: 100%;
+    margin: auto;
+    display: block !important;
+    padding-bottom: 15px;
+  }
+  .second-navbar{
+    padding-left: 20px;
+    padding-right: 40px;
+    display: block;
+    justify-content: center;
+  }
+  .login-signup{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  .input{
+    width: 200px;
+    height: 35px;
+  }
+}
+ /* lower navbar */
+@media screen and (max-width:735px) {
+  .nav-child {
+    padding-top: 10px;
+   display: block;
+   justify-content: center;
+   margin-top: 0;
+  }
+}
+
+
+
