@@ -1,5 +1,5 @@
 import react from "react";
-import styles from "../styles/HomepageBody.css";
+import styles from "../styles/Bodypartone.css";
 import data from "../himages/OBJECTS.png";
 import text from "../himages/dreamcollege.png";
 import vline from "../himages/Rectangle 1142.png";
@@ -14,12 +14,12 @@ const Pagebody = () => {
             </div>
             <br />
             <div className="data">
-              <img src={text} />
+              <img className="colored-text" src={text} />
             </div>
             <br />
             <div className="para">
             <div className="line">
-                <img src={vline}/>
+                <img className="verticle-line" src={vline}/>
               </div>
               <div className="lorem-text">
                 <p>
@@ -31,7 +31,7 @@ const Pagebody = () => {
             </div>
           </div>
           <div>
-            <img src={data} />
+            <img className="colored-text chart"  src={data} />
           </div>
         </div>
       </div>

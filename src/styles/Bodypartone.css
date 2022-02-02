@@ -1,0 +1,152 @@
+.container {
+  max-width: 100%;
+  height: 769px;
+  margin: auto;
+  background: url(../himages/grouppicture.png);
+}
+.overlay {
+  top: 178px;
+  height: 769px;
+  max-width: 1830px;
+  opacity: 95%;
+  background: #ffffff;
+  margin-left: auto;
+}
+.child-overlay {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10rem;
+}
+.welcome {
+  height: 32px;
+  color: #29abe2;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+}
+
+.data {
+  padding-top: 20px;
+}
+.lorem-text {
+  max-width: 459px;
+  height: 100px;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  display: flex;
+  padding-left: 20px;
+}
+.para {
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  padding-top: 20px;
+}
+/* media query */
+@media screen and (max-width: 2560px) {
+  .overlay {
+    max-width: 2530px;
+  }
+  .line{
+      padding-top: 0%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .overlay {
+    max-width: 1415px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .overlay {
+    max-width: 1010px;
+  }
+  .colored-text {
+    max-width: 450px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .overlay {
+    max-width: 738px;
+  }
+  .welcome{
+      padding-left: 20px;
+  }
+  .colored-text {
+    max-width: 350px;
+    height: auto;
+  }
+  .line{
+      padding-left: 5px;
+      padding-top: 10px;
+  }
+  .verticle-line{
+    height: 120px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .overlay {
+    max-width: 410px;
+  }
+  .colored-text {
+    max-width: 300px;
+    height: auto;
+  }
+  .welcome {
+    text-align: center;
+  }
+  .child-overlay {
+    padding-top: 100px;
+    display: block;
+    justify-content: center;
+  }
+  .lorem-text {
+    font-family: Inter;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: left;
+  }
+  .line {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.verticle-line{
+    height: 100px;
+}
+}
+@media screen and (max-width: 375px) {
+  .overlay {
+    max-width: 360px;
+  }
+  .colored-text {
+    max-width: 250px;
+    height: auto;
+  }
+  .chart{
+      padding-top: 30px;
+  }
+  .line {
+    padding-top: 12px;
+    padding-left: 10px;
+}
+.verticle-line{
+    height: 120px;
+}
+}
+@media screen and (max-width: 320px) {
+  .overlay {
+    max-width: 305px;
+  }
+  .colored-text {
+    max-width: 200px;
+    height: auto;
+  }
+}
