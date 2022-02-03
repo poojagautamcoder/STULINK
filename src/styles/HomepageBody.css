@@ -1,92 +1,14 @@
-/* Next part */
-.college-container {
-  max-width:100%;
-  height: 1139px;
-  margin: auto;
-}
-.college-child {
-  padding: 40px;
-  background: #f6f6f6;
- 
-}
-.collegeexams {
-  padding-top: 20px;
-}
-.buttons {
-  display: flex;
-  padding-top: 50px;
-  justify-content: center;
-}
-.bluediv {
-  height: 60px;
-  width: 300px;
-  background: #29abe2;
-}
-.whitediv {
-  height: 60px;
-  width: 300px;
-  background: #ffffff;
-}
-.titlebtn {
-  padding-top: 20px;
-}
-.college-logo{
-  display: flex;
-  justify-content: space-between;
-  padding-left: 15rem;
-  padding-right: 15rem;
-  padding-top: 70px;
-  
-}
-.logoa{
-  height: 190px;
-width: 210px;
-border-radius: 5px;
-background: #29ABE2;
-}
-.logo{
-height: 190px;
-width: 210px;
-border-radius: 5px;
-background: #FFFFFF;
-
-}
-/* trending&colleges */
-.trending-heading{
-  display: flex;
-   justify-content: center;
-   padding-right: 100px;
-}
-.trending-container{
-  max-width:100%;
- 
-}
-.college-title{
-  padding-left: 10px;
-}
-.trending{
-  padding-top: 10px;
-}
-.featured{
-  display: flex;
-  justify-content: center;
-  padding-top: 15px;
-}
-.arrow{
-  margin-top: auto;
-  margin-bottom: auto;
-}
 /* courses */
-.course-container{
-height: 1129px;
-max-width: 100%;
-margin: auto;
-background: #F6F6F6;
+.course-container {
+  height: 1129px;
+  max-width: 100%;
+  margin: auto;
+  background: #f6f6f6;
 }
-.cources-child{
+.cources-child {
   padding-top: 60px;
 }
-.title-container{
+.title-container {
   margin: auto;
   display: flex;
   justify-content: space-evenly;
@@ -95,37 +17,37 @@ background: #F6F6F6;
   padding-right: 25rem;
   padding-bottom: 20px;
 }
-.line1{
+.line1 {
   max-width: 100%;
 }
-.line2{
+.line2 {
   padding-bottom: 2px;
   max-width: 100%;
 }
-.data-container{
+.data-container {
   display: flex;
   justify-content: space-evenly;
   padding-top: 50px;
   margin-top: auto;
   margin-bottom: auto;
   padding-left: 15rem;
-  padding-right:15rem;
+  padding-right: 15rem;
 }
-.smallrow{
+.smallrow {
   padding-left: 23rem;
   padding-right: 23rem;
 }
-.data-boxa{
+.data-boxa {
   height: 63px;
-width: 170px;
-border-radius: 5px;
-background:#29ABE2;
-color: white;
+  width: 170px;
+  border-radius: 5px;
+  background: #29abe2;
+  color: white;
 }
-.data-box{
-height: 63px;
-width: 170px;
-border-radius: 5px;
-border: 1px solid #29ABE2;
-color: black;
+.data-box {
+  height: 63px;
+  width: 170px;
+  border-radius: 5px;
+  border: 1px solid #29abe2;
+  color: black;
 }

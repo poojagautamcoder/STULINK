@@ -23,8 +23,11 @@ const Pagebody = () => {
               </div>
               <div className="lorem-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo dolor Aenean massa Cum sociis .
+                  Lorem ipsum dolor sit amet,
+                  <br/>
+                   consectetuer adipiscing elit.Aenean commodo
+                   <br/>
+                    dolor Aenean massa Cum sociis .
                 </p>
               </div>
              

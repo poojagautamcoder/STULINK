@@ -18,9 +18,9 @@ const HomePage = () => {
    <Middlenav/>
     <Headinglow/>
      <Pagebody/>
-     {/* <Collegeexams/>
+     <Collegeexams/>
      <Trendingcollege/>
-     <Cources/> */}
+     {/* <Cources/> */}
     </div>
   );
 };

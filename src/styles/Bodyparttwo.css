@@ -1,0 +1,85 @@
+/* Next part */
+.college-container {
+  margin: auto;
+  padding: 40px;
+  background: #f6f6f6;
+}
+.collegeexams {
+  padding-top: 20px;
+}
+.buttons {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+.bluediv {
+  height: 60px;
+  width: 300px;
+  background: #29abe2;
+}
+.whitediv {
+  height: 60px;
+  width: 300px;
+  background: #ffffff;
+}
+.titlebtn {
+  padding-top: 20px;
+}
+.logo {
+  display: block;
+  justify-content: center;
+  height: 190px;
+  width: 210px;
+  border-radius: 5px;
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+.Cards {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-self: normal;
+}
+@media screen and (max-width: 1194px) {
+  .Cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (max-width: 1194px) {
+  .Cards {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 453px) {
+  .findyourbest {
+    max-width: 200px;
+  }
+  .collegeExams {
+    max-width: 300px;
+  }
+  .bluediv {
+    max-width: 200px;
+  }
+  .whitediv {
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 348px) {
+  .findyourbest {
+    max-width: 150px;
+  }
+  .collegeExams {
+    max-width: 200px;
+  }
+  .bluediv {
+    max-width: 200px;
+  }
+  .whitediv {
+    max-width: 200px;
+  }
+}

@@ -1,0 +1,39 @@
+/* trending&colleges */
+.trending-heading {
+  display: flex;
+  justify-content: center;
+  padding-right: 100px;
+}
+.trending-container {
+  max-width: 100%;
+}
+.college-title {
+  padding-left: 10px;
+}
+.trending {
+  padding-top: 10px;
+}
+.featured {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.arrow {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media only screen and (max-width: 1559px) {
+  .card-photo {
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 1295px) {
+  .card-photo {
+    max-width: 250px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .card-photo {
+    max-width: 190px;
+  }
+}
