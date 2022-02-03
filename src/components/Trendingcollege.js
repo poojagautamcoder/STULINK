@@ -7,24 +7,37 @@ import groupthree from "../himages/Group 1597.png";
 import groupfour from "../himages/Group 1598.png";
 import leftarrow from "../Headingdata/left arrow.png";
 import rightarrow from "../Headingdata/right arrow.png";
+import styles from "../styles/Bodypartthree.css";
 const Trendingcollege = () => {
   return (
     <div className="trending-container">
       <div className="trending-heading">
-          <div className="trending">
+        <div className="trending">
           <img src={trending} />
-          </div>
-          <div className="college-title">
+        </div>
+        <div className="college-title">
           <img src={college} />
-          </div>
+        </div>
       </div>
       <div className="featured">
-      <div className="arrow"><img src = {leftarrow}/></div>
-         <div><img src ={groupone}/></div>  
-         <div><img src = {grouptwo}/></div>  
-         <div><img src = {groupthree}/></div> 
-         <div><img src = {groupfour}/></div>
-         <div className="arrow"><img src = {rightarrow}/></div>
+        <div className="arrow">
+          <img src={leftarrow} />
+        </div>
+        <div>
+          <img className="card-photo" src={groupone} />
+        </div>
+        <div>
+          <img className="card-photo" src={grouptwo} />
+        </div>
+        <div>
+          <img className="card-photo" src={groupthree} />
+        </div>
+        <div>
+          <img className="card-photo" src={groupfour} />
+        </div>
+        <div className="arrow">
+          <img src={rightarrow} />
+        </div>
       </div>
     </div>
   );

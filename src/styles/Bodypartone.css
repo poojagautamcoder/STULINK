@@ -1,0 +1,112 @@
+.container {
+  margin: auto;
+  background: url(../himages/grouppicture.png);
+}
+.overlay {
+  align-items: right;
+  width: auto;
+  margin-left: 30px;
+  opacity: 95%;
+  background: #ffffff;
+}
+.child-overlay {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 8rem;
+}
+.welcome {
+  height: 32px;
+  color: #29abe2;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  padding-right: 232px;
+}
+
+.data {
+  padding-top: 20px;
+}
+.lorem-text {
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  display: flex;
+}
+.para {
+  display: flex;
+}
+.line {
+  padding-right: 14px;
+}
+/* media query */
+@media only screen and (max-width: 1086px) {
+  .colored-text {
+    max-width: 300px;
+    height: auto;
+  }
+  .child-overlay {
+    display: block;
+    justify-content: center;
+    padding-top: 6rem;
+  }
+  .para {
+    justify-content: center;
+    padding-left: 150px;
+    padding-bottom: 20px;
+  }
+  .welcome {
+    padding-left: 158px;
+  }
+}
+
+@media only screen and (max-width: 691px) {
+  .chart {
+    display: none;
+  }
+  .para {
+    padding-left: 98px;
+    padding-right: 30px;
+  }
+  .welcome {
+    margin: auto;
+    padding-left: 101px;
+  }
+  .data {
+    padding-top: 20px;
+    padding-right: 59px;
+  }
+  .line {
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 582px) {
+  .chart {
+    display: none;
+  }
+  .para {
+    display: none;
+  }
+  .welcome {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+  }
+  .data {
+    padding-top: 20px;
+    padding-right: 0px;
+  }
+  .line {
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .colored-text {
+    max-width: 286px;
+  }
+}
