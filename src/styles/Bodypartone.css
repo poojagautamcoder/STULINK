@@ -5,17 +5,20 @@
   background: url(../himages/grouppicture.png);
 }
 .overlay {
-  top: 178px;
   height: 769px;
-  max-width: 1830px;
+  align-items: right;
+  width: auto;
+  margin-left: 30px;
   opacity: 95%;
   background: #ffffff;
-  margin-left: auto;
 }
 .child-overlay {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 10rem;
+  padding-top: 8rem;
+  padding-left: 30px;
+  padding-right: 30px;
+
 }
 .welcome {
   height: 32px;
@@ -32,8 +35,6 @@
   padding-top: 20px;
 }
 .lorem-text {
-  max-width: 459px;
-  height: 100px;
   font-family: Inter;
   font-size: 22px;
   font-style: normal;
@@ -48,10 +49,31 @@
   justify-content: space-between;
 }
 .line {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 /* media query */
-@media screen and (max-width: 2560px) {
+@media screen and (max-width:1096) {
+  .colored-text {
+    max-width: 450px;
+    height: auto;
+  }
+  .child-overlay {
+   
+    padding-top: 5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+  
+  }
+  /* .chart{
+      padding-top: 30px;
+  } */
+  .line {
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    padding-left: 10px;
+}
+}
+/* @media screen and (max-width: 2560px) {
   .overlay {
     max-width: 2530px;
   }
@@ -59,9 +81,14 @@
       padding-top: 0%;
   }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1819px) {
   .overlay {
-    max-width: 1415px;
+    max-width: 1730px;
+  }
+}
+@media screen and (max-width: 1771px) {
+  .overlay {
+    max-width: 1750px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -149,4 +176,4 @@
     max-width: 200px;
     height: auto;
   }
-}
+} */
