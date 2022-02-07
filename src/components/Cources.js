@@ -9,6 +9,9 @@ import line1 from "../courses img/Line 442.png";
 import line2 from "../courses img/Line 443.png";
 import phd from "../courses img/Phd.png";
 import Courcesdata from "./Courcesdata";
+import styles from "../styles/Bodypartfour.css";
+import CourcesdataMobileview from "./CoursedataMobileview";
+import Boxmobtwo from "./Boxmobtwo";
 const Cources = () => {
   return (
     <div className="course-container">
@@ -20,33 +23,35 @@ const Cources = () => {
           <img src={courses} />
         </div>
         <div className="title-container">
-          <div>
+          <div className="all-title">
             {" "}
             <img src={all} />
           </div>
-          <div>
+          <div className="all-title">
             {" "}
             <img src={diploma} />
           </div>
-          <div>
+          <div className="all-title">
             {" "}
             <img src={undergraduate} />
           </div>
-          <div>
+          <div className="all-title">
             {" "}
             <img src={postgraduation} />
           </div>
-          <div>
+          <div className="all-title">
             {" "}
             <img src={phd} />
           </div>
         </div>
-        <div>
+        <div className="underline">
           <img className="line1" src={line2} />
-          <img  className="line2" src={line1} />
+          <img className="line2" src={line1} />
         </div>
       </div>
-      <Courcesdata/>
+      <Courcesdata />
+      <CourcesdataMobileview />
+      <Boxmobtwo/>
     </div>
   );
 };

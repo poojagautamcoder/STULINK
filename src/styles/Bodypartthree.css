@@ -1,11 +1,11 @@
 /* trending&colleges */
 .trending-heading {
   display: flex;
-  justify-content: center;
-  padding-right: 100px;
+  padding-left: 209px;
+  padding-top: 30px;
 }
-.trending-container {
-  max-width: 100%;
+.trendingmobile-container{
+  display: none;
 }
 .college-title {
   padding-left: 10px;
@@ -23,11 +23,51 @@
   margin-bottom: auto;
 }
 @media only screen and (max-width: 1559px) {
+  .trending-container {
+    display: none;
+  }
+  .trendingmobile-container {
+    display: block;
+  }
+  .trending-heading {
+    padding-left: 0px;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 833px) {
+  .featured {
+    display: block;
+    justify-content: center;
+  }
+  .arrow {
+    display: none;
+  }
+}
+@media only screen and (max-width: 448px) {
+  .trend {
+    max-width: 120px;
+  }
+  .college {
+    max-width: 180px;
+  }
+  .trending-heading {
+    padding-right: 0px;
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 395px) {
   .card-photo {
     max-width: 300px;
   }
+  .trend {
+    max-width: 100px;
+  }
+  .college {
+    max-width: 155px;
+  }
 }
-@media only screen and (max-width: 1295px) {
+
+/* @media only screen and (max-width: 1295px) {
   .card-photo {
     max-width: 250px;
   }
@@ -36,4 +76,4 @@
   .card-photo {
     max-width: 190px;
   }
-}
+} */

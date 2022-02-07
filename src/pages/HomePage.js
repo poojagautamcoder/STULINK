@@ -9,18 +9,19 @@ import Cources from "../components/Cources";
 import Uppernav from "../components/Uppernav";
 import Middlenav from "../components/Middlenav";
 import MobileMiddlenav from "../components/MobileMiddlenav";
-
+import TrendingMobileview from "../components/TrendingMobileview";
 const HomePage = () => {
   return (
     <div className="homepage">
-   <Uppernav/>
-   <MobileMiddlenav/>
-   <Middlenav/>
-    <Headinglow/>
-     <Pagebody/>
-     <Collegeexams/>
-     <Trendingcollege/>
-     {/* <Cources/> */}
+      <Uppernav />
+      <MobileMiddlenav />
+      <Middlenav />
+      <Headinglow />
+      <Pagebody />
+      <Collegeexams />
+      <Trendingcollege />
+      <TrendingMobileview />
+      <Cources/>
     </div>
   );
 };

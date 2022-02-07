@@ -43,13 +43,19 @@
   grid-template-columns: auto auto auto auto auto;
   align-self: normal;
 }
-@media screen and (max-width: 1194px) {
+@media screen and (max-width: 1188px) {
   .Cards {
     display: grid;
     grid-template-columns: auto auto auto;
   }
 }
-@media screen and (max-width: 1194px) {
+@media screen and (max-width: 792px) {
+  .Cards {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 519px) {
   .Cards {
     display: grid;
     grid-template-columns: auto;
