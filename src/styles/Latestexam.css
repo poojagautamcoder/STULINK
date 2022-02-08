@@ -1,0 +1,14 @@
+.sections{
+    display: flex;
+    justify-content: space-between;
+}
+.section-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.data-details{
+    display: flex;
+}
+.paper-datails{
+    display: flex;
+}

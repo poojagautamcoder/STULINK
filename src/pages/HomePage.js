@@ -10,6 +10,7 @@ import Uppernav from "../components/Uppernav";
 import Middlenav from "../components/Middlenav";
 import MobileMiddlenav from "../components/MobileMiddlenav";
 import TrendingMobileview from "../components/TrendingMobileview";
+import Latestexam from "../components/Latestexam";
 const HomePage = () => {
   return (
     <div className="homepage">
@@ -22,6 +23,7 @@ const HomePage = () => {
       <Trendingcollege />
       <TrendingMobileview />
       <Cources/>
+      {/* <Latestexam/> */}
     </div>
   );
 };
